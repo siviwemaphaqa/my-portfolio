@@ -42,7 +42,7 @@ body {
 }
 
 .blue {
-  background-color: #3498db;
+  background-color: hsl(200, 8%, 93%);
   animation: moveBlue 2s linear infinite alternate;
 }
 
@@ -100,11 +100,11 @@ body {
 
 /* ===== HERO SECTION ===== */
 #hero {
-    height: 100vh;
+    height: 50vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     background: linear-gradient(135deg, #1e1e1e, #121212);
     padding-top: 80px; /* To account for fixed navbar */
 }
@@ -153,7 +153,7 @@ body {
     gap: 3rem;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -162,11 +162,11 @@ body {
 }
 
 .profile-circle {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
     object-fit: cover;
-    border: 3px solid #f7f7fae5;
+    border: 2px solid #f7f7fae5;
 }
 
 .about-text {

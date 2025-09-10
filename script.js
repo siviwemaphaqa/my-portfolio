@@ -1,6 +1,6 @@
 // Smooth scroll handled by CSS scroll-behavior 
 // Hamburger menu toggle
-
+const 
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
